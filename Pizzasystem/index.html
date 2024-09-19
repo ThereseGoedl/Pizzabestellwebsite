@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizzabestellsystem</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    
+    <div class="header">
+        <h1>Pizza Klassiker</h1>
+    </div>
+
+
+    <body>
+        <div class="pizza">
+         
+        <p>Pizzasorten</p>
+        <label>
+        <input type="radio" name="pizza" class="pizza-radio" data-price="9.00">
+        Pizza Salami (€9.00)
+        <input type="radio" name="pizza" class="pizza-radio" data-price="10.00">
+        Pizza Hawaii (€10.00)
+        <input type="radio" name="pizza" class="pizza-radio" data-price="9.00" >
+        Pizza Tonno (€9.00)
+        <input type="radio" name="pizza" class="pizza-radio" data-price="8.00" >
+        Pizza Margherita (€8.00)
+        <input type="radio" name="pizza" class="pizza-radio" data-price="10.00" >
+        Pizza Caprese (€10.00)
+        </label><br>
+
+        <p>Pizzagrößen</p>
+        <label>
+        <input type="radio" name="size" class="size-radio" data-size-price="4.00">
+        Klein (+4.00€)
+        <input type="radio" name="size" class="size-radio" data-size-price="6.00">
+        Mittel (+6.00€)
+        <input type="radio" name="size" class="size-radio" data-size-price="7.00">
+        Groß (+7.00€) 
+        </label><br>
+        
+        <p>Beilagen und Extras</p>
+        <label>
+        <input type="radio" class="extra" data-price="1.50">
+        mit Ananas (1,50€)
+        <input type="radio" class="extra" data-price="0.25">
+        mit Champignons (0,25€)
+        <input type="radio" class="extra" data-price="0.50">
+        mit Mais (0,50€)
+        <input type="radio" class="extra" data-price="0.80">
+        mit Paprika (0,80€)
+        <input type="radio" class="extra" data-price="1.50">
+        mit Schafskäse(1,50€)
+        <input type="radio" class="extra" data-price="1.50">
+        mit Käse,extra (1,50€)
+        </label><br>
+
+        <button class="button-62" id="calculate-btn">Gesamtpreis</button>
+        <p id="total-price">Gesamtpreis: €0.00</p>
+    
+    </div>
+    </body>
+    <script src="script.js"></script>
+
+</html>

@@ -1,0 +1,63 @@
+body {
+vertical-align: center;
+font-family: Arial;
+text-align: center;
+margin: 0px;
+background-image: url(https://as1.ftcdn.net/v2/jpg/05/36/42/78/1000_F_536427879_OLICk4WlfxxjGlCDhI4QZ1jlwUY5zuZ5.jpg) ;
+}
+
+h1 {
+font-family: "fantasy";
+font-style: italic;
+}
+  
+.header {
+padding: 40px;
+text-align: center;
+background: #965f3ae7;
+color: white;
+font-size: 30px;
+}
+
+p {
+font-family: "fantasy";
+font-style: italic;
+font-weight: 600;
+font-size: 35px;
+}
+
+label {
+background-color: #FFFFFF;
+font-family: "fantasy";
+font-style: italic;
+font-weight: 500;
+font-size: 25px;
+}
+  
+.button-62 {
+background: linear-gradient(to bottom right, #00f7ff, #ffd900);
+border: 0;
+border-radius: 12px;
+color: #FFFFFF;
+display: inline-block;
+font-family: "Segoe UI";
+font-size: 16px;
+font-weight: 500;
+line-height: 2.5;
+outline: transparent;
+padding: 0 1rem;
+text-align: center;
+touch-action: manipulation;
+margin-top: 20px;  
+}
+
+.button-62:not([disabled]):focus {
+box-shadow: 0 0 .25rem rgba(30, 255, 0, 0.5), -.125rem -.125rem 1rem rgba(255, 208, 0, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+box-shadow: 0 0 .25rem rgba(255, 238, 0, 0.507), -.125rem -.125rem 1rem rgba(0, 255, 34, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.content {padding:20px;}
+
